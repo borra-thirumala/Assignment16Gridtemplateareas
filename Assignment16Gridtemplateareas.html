@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .md{
+            height:50vh;
+            width:20vw;
+            display:grid;
+            gap:5px;
+          
+            grid-template-areas: 
+                "area1 area2 area3" 
+                "area1 area4 area5"
+                "area6 area4 area7";
+                padding:10px;
+        }
+        .img1{
+            position:relative;
+          
+            grid-area:area1 ;
+        }
+        .img2{
+            position:relative;
+            
+            grid-area:area2;
+
+        }
+        .img3{
+            position:relative;
+            
+            grid-area:area3;
+        }
+        .img4{
+            position:relative;
+            top:-12px;
+            grid-area:area4;
+        }
+        .img5{
+            position:relative;
+            top:-12px;
+            grid-area:area5;
+        }
+        .img6{
+            position: relative;
+            top:-60px;
+            grid-area:area6;
+        }
+        .img7{
+            position:relative;
+            top:-25px;
+            grid-area:area7;
+        }
+        
+           
+    </style>
+</head>
+<body>
+    <div class="md">
+    <img class="img1" height="170" width="100" src="https://th.bing.com/th/id/OIP.F-KB84m2TrqBObtPVuu2ogAAAA?rs=1&pid=ImgDetMain">
+    <img class="img2" height="100" width="100" src="https://up.yimg.com/ib/th?id=OIP.BXYbbn0IgAucv82dsHgtzwHaEo&pid=Api&rs=1&c=1&qlt=95&w=154&h=96">
+    <img class="img3" height="100" width="100" src="https://up.yimg.com/ib/th?id=OIP.z9DgCgl3z9jhbiJDMuwsOAHaEK&pid=Api&rs=1&c=1&qlt=95&w=174&h=98">
+    <img class="img4" height="190" width="100" src="https://img.freepik.com/premium-photo/futuristic-gadgets-showcase-lineup-sleek-modern-technological-devices_977107-682.jpg?w=2000">
+    <img class="img5" height="100" width="100" src="https://tse4.mm.bing.net/th?id=OIP.vDVWXoKpiduWgJ1v-DLwvQHaGb&pid=Api&P=0&h=180">
+    <img class="img6" height="120" width="100" src="https://tse1.mm.bing.net/th?id=OIP.yV85zPmFqkM_-L2fWczwEQHaEK&pid=Api&P=0&h=180">
+    <img class="img7" height="86" width="100" src="https://tse2.mm.bing.net/th?id=OIP.JlYNhV7cKk6hbEd9rRQg2gHaEc&pid=Api&P=0&h=180">
+</div>
+</body>
+</html>
